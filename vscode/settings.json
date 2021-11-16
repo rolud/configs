@@ -1,0 +1,69 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "todohighlight.isCaseSensitive": false,
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+    "todohighlight.keywords": [
+        {
+          "text": "TODO:",
+          "color": "#c4c4c4",
+          "font-weight": "bold",
+          "border": "1px solid #ab1a1a",
+          "borderRadius": "5px", //NOTE: using borderRadius along with `border` or you will see nothing change
+          "backgroundColor": "#ab1a1a",
+        },
+        {
+          "text": "DEBUG:",
+          "color": "#c4c4c4",
+          "font-weight": "bold",
+          "border": "1px solid #486308",
+          "borderRadius": "5px", //NOTE: using borderRadius along with `border` or you will see nothing change
+          "backgroundColor": "#486308",
+        },
+        {
+          "text": "FIXME:",
+          "color": "#c4c4c4",
+          "font-weight": "bold",
+          "border": "1px solid #8903a1",
+          "borderRadius": "5px", //NOTE: using borderRadius along with `border` or you will see nothing change
+          "backgroundColor": "#8903a1",
+        },
+      ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "colorize.include": [
+        ".tsx", ".jsx"
+    ],
+    "colorize.languages": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "colorize.colorized_colors": [
+        "BROWSERS_COLORS",
+        "HEXA",
+        "RGB",
+        "HSL"
+    ]
+}
